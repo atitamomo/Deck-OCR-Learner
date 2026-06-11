@@ -1,0 +1,37 @@
+{
+  "name": "decky-ocr-learner",
+  "version": "1.0.0",
+  "description": "On-screen OCR and dictionary lookup for language learning on SteamOS",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "deploy": "node deploy.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.1",
+    "decky-frontend-lib": "^3.25.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "rollup": "^2.77.1",
+    "rollup-plugin-import-assets": "^1.1.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react-icons": "^4.4.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}

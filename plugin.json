@@ -1,0 +1,13 @@
+{
+  "name": "Decky OCR Learner",
+  "author": "atitamomo",
+  "description": "Reads game screen using OCR and translates/looks up words for language learning.",
+  "version": "1.0.0",
+  "flags": [],
+  "debug": true,
+  "root": false,
+  "tags": [
+    "utility",
+    "education"
+  ]
+}
